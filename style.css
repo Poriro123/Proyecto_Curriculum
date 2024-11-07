@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(121, 121, 78);
+    margin: 0px;
+}
+header{
+    background-color: bisque;
+    display:flex;
+}
+#imagenSid{
+    border-radius: 50px;
+}
+.title{
+    margin-left: 10px;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contacto{
+    display: flex;
+    font-size: medium;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.formulario{
+ margin-left: 200px;
+}
+.arrow{
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+.arrow1{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+#Flechas{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+@keyframes ArribaAbajo{
+    0%{
+        transform: 0px;
+    }
+    50%{
+        translate: 10px;
+    }
+    100%{
+        transform: 0px;
+    }
+}
+@keyframes ArribaAbajo2{
+    0%{
+        transform: 0px;
+    }
+    50%{
+        translate: -10px;
+    }
+    100%{
+        transform: 0px;
+    }
+}
+.containerArrow{
+    margin-right: 10px;
+    animation: ArribaAbajo 2s infinite;
+}
+.containerArrow1{
+    margin-left: 10px;
+    animation: ArribaAbajo2 2s infinite;
+}
+.experiencia{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.field1{
+    margin-top: 10px;
+    display: flex;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.titleField1{
+    margin-left: 10px;
+    align-items: center;
+    font-size: larger;
+    align-content: center;
+    font-weight: bold;
+}
+.textField1{
+    align-content: center;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#ImagenYo{
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.field2{
+
+    margin-top: 10px;
+    display: flex;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.titleField2{
+    margin-left: 10px;
+    align-items: center;
+    font-size: larger;
+    align-content: center;
+    font-weight: bold;
+}
+.textField2{
+    align-content: center;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#papiro{
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.field3 {
+
+    margin-top: 10px;
+    display: flex;
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.titleField3{
+    margin-left: 10px;
+    align-items: center;
+    font-size: larger;
+    align-content: center;
+    font-weight: bold;
+}
+.textField3{
+    align-content: center;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#pala{
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.Cruzes{
+    display: flex;
+}
+.Cruz{
+    clip-path: polygon(10% 25%, 41% 33%, 35% 0%, 65% 0%, 60% 33%, 90% 25%, 90% 50%, 60% 41%, 65% 100%, 34% 100%, 41% 41%, 10% 50%);
+    width: 120px;
+    height: 120px;
+    background-color: rgb(117, 81, 26);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+.Cruz1{
+    clip-path: polygon(10% 25%, 41% 33%, 35% 0%, 65% 0%, 60% 33%, 90% 25%, 90% 50%, 60% 41%, 65% 100%, 34% 100%, 41% 41%, 10% 50%);
+    width: 120px;
+    height: 120px;
+    background-color: rgb(117, 81, 26);
+    margin-left: 1050px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+

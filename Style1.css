@@ -1,0 +1,24 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(to right, rgba(2,0,36,1) 0%, rgba(7,7,82,1) 35%, rgba(42,190,221,1) 94%);
+    background-size: cover;
+    color: aliceblue;
+}
+.formulario fieldset{
+    height: 600px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: black;
+}
+.formulario #Subir{
+    width: 100px;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 10px;
+    background-color:greenyellow;
+}
+.formulario #Resetear{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+}
